@@ -32,3 +32,20 @@ header {
         }
     }
 }
+
+.section_1 {
+    width: 100%;
+    padding-top: 20px;
+    .container {
+        .row {
+           .card_style {
+                img {
+                    width: 100%;
+                }
+                p {
+                    color: red;
+                }
+           } 
+        }
+    }
+}
