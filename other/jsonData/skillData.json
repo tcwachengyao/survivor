@@ -1,0 +1,190 @@
+{
+    "main_weapon": [
+        {
+            "id": 1,
+            "cardTitle": "苦無",
+            "cardText": "",
+            "img": "",
+            "img_alt": "噠噠特攻苦無"
+        },
+        {
+            "id": 2,
+            "cardTitle": "棒球棍",
+            "cardText": "",
+            "img": "../images/skill/skill_1_2.png",
+            "img_alt": "噠噠特攻棒球棍"
+        },
+        {
+            "id": 3,
+            "cardTitle": "霰彈槍or左輪",
+            "cardText": "",
+            "img": "",
+            "img_alt": "噠噠特攻"
+        },
+        {
+            "id": 4,
+            "cardTitle": "追光者or武士刀",
+            "cardText": "",
+            "img": "",
+            "img_alt": "噠噠特攻"
+        }
+    ],
+    "attack_skills": [
+        {
+            "id": 1,
+            "cardTitle": "力場",
+            "cardText": "",
+            "img": "../images/skill/skill_2_1.png",
+            "img_alt": "噠噠特攻力場"
+        },
+        {
+            "id": 2,
+            "cardTitle": "燃燒瓶",
+            "cardText": "",
+            "img": "../images/skill/skill_2_2.png",
+            "img_alt": "噠噠特攻燃燒瓶"
+        },
+        {
+            "id": 3,
+            "cardTitle": "足球",
+            "cardText": "",
+            "img": "../images/skill/skill_2_3.png",
+            "img_alt": "噠噠特攻足球"
+        },
+        {
+            "id": 4,
+            "cardTitle": "迴旋鏢",
+            "cardText": "",
+            "img": "../images/skill/skill_2_4.png",
+            "img_alt": "噠噠特攻迴旋鏢"
+        },
+        {
+            "id": 5,
+            "cardTitle": "鑽頭彈",
+            "cardText": "",
+            "img": "../images/skill/skill_2_5.png",
+            "img_alt": "噠噠特攻鑽頭彈"
+        },
+        {
+            "id": 6,
+            "cardTitle": "守衛者",
+            "cardText": "",
+            "img": "../images/skill/skill_2_6.png",
+            "img_alt": "噠噠特攻守衛者"
+        },
+        {
+            "id": 7,
+            "cardTitle": "榴槤",
+            "cardText": "",
+            "img": "",
+            "img_alt": "噠噠特攻榴槤"
+        },
+        {
+            "id": 8,
+            "cardTitle": "雷電發射器",
+            "cardText": "",
+            "img": "../images/skill/skill_2_8.png",
+            "img_alt": "噠噠特攻雷電發射器"
+        },
+        {
+            "id": 9,
+            "cardTitle": "激光發射器",
+            "cardText": "",
+            "img": "",
+            "img_alt": "噠噠特攻激光發射器"
+        },
+        {
+            "id": 10,
+            "cardTitle": "火箭發射器",
+            "cardText": "",
+            "img": "../images/skill/skill_2_10.png",
+            "img_alt": "噠噠特攻火箭發射器"
+        },
+        {
+            "id": 11,
+            "cardTitle": "A型無人機",
+            "cardText": "",
+            "img": "../images/skill/skill_2_11.png",
+            "img_alt": "噠噠特攻A型無人機"
+        },
+        {
+            "id": 12,
+            "cardTitle": "B型無人機",
+            "cardText": "",
+            "img": "../images/skill/skill_2_12.png",
+            "img_alt": "噠噠特攻B型無人機"
+        },
+        {
+            "id": 13,
+            "cardTitle": "磚塊",
+            "cardText": "",
+            "img": "../images/skill/skill_2_13.png",
+            "img_alt": "噠噠特攻磚塊"
+        }
+    ],
+    "auxiliary_skills": [
+        {
+            "id": 1,
+            "cardTitle": "健身指南",
+            "cardText": "",
+            "img": "../images/skill/skill_3_1.png",
+            "img_alt": "噠噠特攻健身指南"
+        },
+        {
+            "id": 2,
+            "cardTitle": "高爆燃料",
+            "cardText": "",
+            "img": "../images/skill/skill_3_2.png",
+            "img_alt": "噠噠特攻高爆燃料"
+        },
+        {
+            "id": 3,
+            "cardTitle": "功能飲料",
+            "cardText": "",
+            "img": "../images/skill/skill_3_3.png",
+            "img_alt": "噠噠特攻功能飲料"
+        },
+        {
+            "id": 4,
+            "cardTitle": "彈藥推進器",
+            "cardText": "",
+            "img": "../images/skill/skill_3_4.png",
+            "img_alt": "噠噠特攻彈藥推進器"
+        },
+        {
+            "id": 5,
+            "cardTitle": "外骨骼臂甲",
+            "cardText": "",
+            "img": "../images/skill/skill_3_5.png",
+            "img_alt": "噠噠特攻外骨骼臂甲"
+        },
+        {
+            "id": 6,
+            "cardTitle": "能量塊",
+            "cardText": "",
+            "img": "../images/skill/skill_3_6.png",
+            "img_alt": "噠噠特攻能量塊"
+        },
+        {
+            "id": 7,
+            "cardTitle": "運動鞋",
+            "cardText": "",
+            "img": "../images/skill/skill_3_7.png",
+            "img_alt": "噠噠特攻運動鞋"
+        },
+        {
+            "id": 8,
+            "cardTitle": "強力磁鐵",
+            "cardText": "",
+            "img": "../images/skill/skill_3_8.png",
+            "img_alt": "噠噠特攻強力磁鐵"
+        },
+        {
+            "id": 9,
+            "cardTitle": "石油債卷",
+            "cardText": "",
+            "img": "../images/skill/skill_3_9.png",
+            "img_alt": "噠噠特攻石油債卷"
+        }
+    ]
+}

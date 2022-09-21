@@ -29,19 +29,38 @@
     </header>
     <section class="section_1">
         <div class="container">
+            <div class="row mt-2 mb-2">
+                <div class="col-6 col-sm-6 col-lg-3">
+                    <a class="btn btn-primary" href="/other/skill.html">技能介紹</a>
+                </div>
+                <div class="col-6 col-sm-6 col-lg-3">
+                    <a class="btn btn-primary" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModal">裝備介紹</a>
+                </div>
+                <div class="col-6 col-sm-6 col-lg-3">
+                    <a class="btn btn-primary" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModal">玩法介紹</a>
+                </div>
+                <div class="col-6 col-sm-6 col-lg-3">
+                    <a class="btn btn-primary" href="javascript:void(0);" data-toggle="modal" data-target="#exampleModal">新手攻略</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <hr>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-12 col-sm-6 col-lg-4 card_style">
                     <h2>攻略第一步</h2>
                     <img src="images/card_3.png" alt="魔法小卡">
                     <p>*成功都是有捷徑</p>
                 </div>
-                
+
                 <div class="col-12 col-sm-6 col-lg-4 card_style">
                     <h2>攻略第二步</h2>
                     <img src="images/chok_1.jpg" alt="S級軍備箱">
                     <p>*S級軍備箱抽下去</p>
                 </div>
-                
+
                 <div class="col-12 col-sm-6 col-lg-4 card_style">
                     <h2>攻略第三步</h2>
                     <img src="images/chok_2.jpg" alt="S級裝">
@@ -49,14 +68,34 @@
                 </div>
             </div>
         </div>
-
     </section>
-    
+
     <footer>
-            <div class="container">
-                <h6>©....</h6>
-            </div>
+        <div class="container">
+            <h6>©....</h6>
+        </div>
     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">非常抱歉</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    非常抱歉，<br>官方沒贊助任何金錢圖片資訊，<br>目前坎坷開發中....
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="asseast/jQuery_v3_6_0/js/jquery.min.js"></script>
     <script src="asseast/bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>

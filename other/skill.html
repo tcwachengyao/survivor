@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/icon.ico">
+    <title>噠噠特攻</title>
+    <meta name="author" content="噠噠特攻">
+    <meta name="copyright" content="噠噠特攻">
+    <meta name="description" content="噠噠特攻">
+    <meta name="keyword" content="噠噠特攻">
+    <meta property="og:site_name" content="噠噠特攻">
+    <meta property="og:title" content="噠噠特攻">
+    <meta property="og:url" content="https://tcwachengyao.github.io/survivor/">
+    <meta property="og:description" content="噠噠特攻">
+    <link rel="stylesheet" href="../asseast/bootstrap-4.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/skill.css">
+</head>
+
+<body>
+    <header>
+        <img src="../images/survivor_1.jpg" alt="噠噠特攻" title="噠噠特攻" hidden>
+        <div class="the_title">
+            <h1>噠噠特攻</h1>
+            <h4>Survivor</h4>
+        </div>
+    </header>
+    <section class="skill_section">
+        <div class="container">
+            <div class="row mt-1 mb-1">
+                <div class="col-12">
+                    <h3>主武器</h3>
+                </div>
+            </div>
+            <div class="row main_weapon"></div>
+            <!--  -->
+            <div class="row mt-1 mb-1">
+                <div class="col-12">
+                    <h3>攻擊技能</h3>
+                </div>
+            </div>
+            <div class="row attack_skills"></div>
+            <!--  -->
+            <div class="row mt-1 mb-1">
+                <div class="col-12">
+                    <h3>輔助技能</h3>
+                </div>
+            </div>
+            <div class="row auxiliary_skills"></div>
+        </div>
+    </section>
+
+    <section class="returnPage mb-3">
+        <a class="btn btn-danger" href="../">返回</a>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h6>©....</h6>
+        </div>
+    </footer>
+
+    <script src="../asseast/jQuery_v3_6_0/js/jquery.min.js"></script>
+    <script src="../asseast/bootstrap-4.2.1-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        $.ajax({
+            url: `jsonData/skillData.json`,
+            success: function (res) {
+                console.log(res);
+                var main_weapon = res.main_weapon;
+                $(main_weapon).each(function(idx, item) {
+                    $('.main_weapon').append(`
+                        <div class="col-6 col-sm-4 col-lg-3 mb-1">
+                            <div class="card">
+                                <img style="height:200px;" src="${item.img}" class="card-img-top" alt="${item.img_alt}" title="${item.img_alt}">
+                                <div class="card-body">
+                                    <h5 class="card-title">${item.cardTitle}</h5>
+                                    <p class="card-text">
+                                        ${item.cardText}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    `);
+                })
+                var attack_skills = res.attack_skills;
+                $(attack_skills).each(function(idx, item) {
+                    $('.attack_skills').append(`
+                        <div class="col-6 col-sm-4 col-lg-3 mb-1">
+                            <div class="card">
+                                <img style="height:200px;" src="${item.img}" class="card-img-top" alt="${item.img_alt}" title="${item.img_alt}">
+                                <div class="card-body">
+                                    <h5 class="card-title">${item.cardTitle}</h5>
+                                    <p class="card-text">
+                                        ${item.cardText}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    `);
+                })
+                var auxiliary_skills = res.auxiliary_skills;
+                $(auxiliary_skills).each(function(idx, item) {
+                    $('.auxiliary_skills').append(`
+                        <div class="col-6 col-sm-4 col-lg-3 mb-1">
+                            <div class="card">
+                                <img style="height:200px;" src="${item.img}" class="card-img-top" alt="${item.img_alt}" title="${item.img_alt}">
+                                <div class="card-body">
+                                    <h5 class="card-title">${item.cardTitle}</h5>
+                                    <p class="card-text">
+                                        ${item.cardText}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    `);
+                })
+
+            },
+            error: function (err) {
+                console.log(err)
+            }
+        });
+    </script>
+</body>
+
+</html>
